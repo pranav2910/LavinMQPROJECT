@@ -27,9 +27,10 @@ This challenge consists of creating a producer which sends a message ("HELLO WOR
 5. Now open two terminals simultaneously and make sure that you are in the challenge1 repository or navigate it using the `cd` command.
 6. In terminal 1 enter this command `python hello_world_consumer.py` and in terminal 2 enter this `python hello_world_producer.py`.
    If everything goes well, you should get the following output in the different terminals.
-   Terminal 1 - Consumer 
+   
+   <h3>Terminal 1 - Consumer <h3>
     ![output of consumer](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/2b02aa99-06a8-4c5f-855c-31c83dbf525b)
-   Terminal 2 - Producer
+   <h3>Terminal 2 - Producer <h3>
     ![output of producer](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/3a2675f8-b6e7-4037-9bba-6b5ee758bea0)
 
 ### 🚧 Challenge 2: Creating queues, exchanges and bindings
