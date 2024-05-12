@@ -56,6 +56,27 @@ Terminal 3 - a consumer instance for marketing messages: `python direct_exchange
 
 In the fourth terminal, run your producer application with: `python direct_exchange_producer.py`
 
+If everything goes well, you should get the following output in the different terminals.
+
+  <h3>Terminal 1 - hr consumer</h3>
+
+  ![Screenshot 2024-05-13 022058](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/470b2848-c8dc-4e9c-97cf-f37195c5b4e2)
+  
+
+  <h3>Terminal 2 - support</h3>
+  
+  ![Screenshot 2024-05-13 022033](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/831b7d93-bc8f-4965-8183-9cf4dadc6ff7)
+
+  
+  <h3>Terminal 3 - marketing</h3>
+  
+  ![Screenshot 2024-05-13 022020](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/03d66d7c-1163-4c6a-bca7-90dfdceb31ac)
+
+  <h3>Terminal 4 - Producer</h3>
+  
+  ![Screenshot 2024-05-13 022005](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/7b7f3394-f453-4fe3-9b28-567cf516ae96)
+
+
 ### 🏆 Challenge 3: Running three consumers
 This challenge consists of creating 1-to-1 mapping between queues and consumers.
 
@@ -78,5 +99,28 @@ Terminal 2 - a consumer instance for support messages: `python direct_exchange_c
 Terminal 3 - a consumer instance for marketing messages: `python direct_exchange_consumer.py marketing`
 
 In the fourth terminal, run your producer application with: `python direct_exchange_producer.py`
+
+If everything goes well, you should get the following output in the different terminals.
+
+  <h3>Terminal 1 - hr consumer</h3>
+
+  ![Screenshot 2024-05-13 022921](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/bb6e253e-6892-4317-8eff-e82d39bcd946)
+
+
+  
+  <h3>Terminal 2 - support</h3>
+
+  ![Screenshot 2024-05-13 022907](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/2849d500-565a-4fe4-aedc-d7515cd5003f)
+
+  
+  <h3>Terminal 3 - marketing</h3>
+
+  ![Screenshot 2024-05-13 022855](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/20cab509-91cf-4750-8614-366cd0732ce7)
+
+  
+  <h3>Terminal 4 - producer</h3>
+
+  ![Screenshot 2024-05-13 022843](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/9926da4e-03ff-477b-a6e4-0179301e9584)
+
 
 </div>
