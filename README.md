@@ -29,8 +29,11 @@ This challenge consists of creating a producer which sends a message ("HELLO WOR
    If everything goes well, you should get the following output in the different terminals.
    
    <h3>Terminal 1 - Consumer <h3>
+     
     ![output of consumer](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/2b02aa99-06a8-4c5f-855c-31c83dbf525b)
+   
    <h3>Terminal 2 - Producer <h3>
+     
     ![output of producer](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/3a2675f8-b6e7-4037-9bba-6b5ee758bea0)
 
 ### 🚧 Challenge 2: Creating queues, exchanges and bindings
