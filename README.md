@@ -39,7 +39,9 @@ You will modify the producer you created in the previous challenge to fit the re
 3. Open 4 terminals simultaneously. In the first three terminals, run three instances of your consumer application with:
 
 Terminal 1 - a consumer instance for hr messages: `python direct_exchange_consumer.py hr`
+
 Terminal 2 - a consumer instance for support messages: `python direct_exchange_consumer.py support`
+
 Terminal 3 - a consumer instance for marketing messages: `python direct_exchange_consumer.py marketing`
 
 In the fourth terminal, run your producer application with: `python direct_exchange_producer.py`
@@ -60,7 +62,9 @@ The consumer will then bind to the `hr_queue, marketing_queue, or support_queue`
 3. Open 4 terminals simultaneously. In the first three terminals, run three instances of your consumer application with:
 
 Terminal 1 - a consumer instance for hr messages: `python direct_exchange_consumer.py hr`
+
 Terminal 2 - a consumer instance for support messages: `python direct_exchange_consumer.py support`
+
 Terminal 3 - a consumer instance for marketing messages: `python direct_exchange_consumer.py marketing`
 
 In the fourth terminal, run your producer application with: `python direct_exchange_producer.py`
