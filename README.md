@@ -21,12 +21,16 @@ This project consists of three challenges
 This challenge consists of creating a producer which sends a message ("HELLO WORLD") to the LavinMQ server and a consumer which receives a message from the LavinMQ server.
 #### 📄 Output
 1. After downloading the zip file, unzip it, open the folder in your preferred IDE which supports Python. Make sure that Python is installed on your computer.
-2. Also install `pika` and `python_dotenv`.
+2. Also install `pika` and `python_dotenv` packages.
 3. Now copy your instance URL from your CloudAMQP website and modify it in the place of CloudAMQP URL in the code.
-4. Both in hello_world_producer.py and hello_world_consumer.py files. 
-5. Now open two terminals simultaneously and make sure that you are in the challenge1 repository or navigate it using the "cd" command.
-6. In terminal 1 enter this command "python hello_world_consumer.py" and in terminal 2 enter this "python hello_world_producer.py". 
-    
+4. Both in `hello_world_producer.py` and `hello_world_consumer.py` files. 
+5. Now open two terminals simultaneously and make sure that you are in the challenge1 repository or navigate it using the `cd` command.
+6. In terminal 1 enter this command `python hello_world_consumer.py` and in terminal 2 enter this `python hello_world_producer.py`.
+7. 
+    ![output of consumer](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/2b02aa99-06a8-4c5f-855c-31c83dbf525b)
+
+    ![output of producer](https://github.com/pranav2910/LavinMQPROJECT/assets/77099940/3a2675f8-b6e7-4037-9bba-6b5ee758bea0)
+
 ### 🚧 Challenge 2: Creating queues, exchanges and bindings
 This challenge consists of creating exchanges, bindings and routing keys in LavinMQ — building on the concepts you’ve learnt in the previous challenge.
 You will modify the producer you created in the previous challenge to fit the requirements of the notification system.
